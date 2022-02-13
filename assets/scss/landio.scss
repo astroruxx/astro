@@ -1716,6 +1716,13 @@ figure { position: relative; }
 
   .card-stat { position: relative; }
 }
+.discord {
+  color: black;
+
+  &:hover {
+    color: white;
+  }
+}
 
 
 //
