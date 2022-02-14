@@ -203,7 +203,7 @@ $font-family-sans-serif-custom: 'Lato', sans-serif !default;
 }
 
 .navbar-dark {
-  .form-control { color: #fff; }
+  .form-control { color: rgba(255, 255, 255, 0.178); }
 }
 
 .navbar-dark .navbar-nav-transparent {
@@ -220,7 +220,7 @@ $font-family-sans-serif-custom: 'Lato', sans-serif !default;
   .nav-link,
   .navbar-form {
     @media (max-width: map-get($grid-breakpoints, md) - 1) {
-      background-color: rgba(255, 255, 255, 0.9);
+      background-color: rgba(255, 255, 255, 0.192);
       border-bottom: 3px solid map-get($theme-colors, primary);
     }
   }
@@ -290,7 +290,7 @@ $font-family-sans-serif-custom: 'Lato', sans-serif !default;
       float: none;
       margin: 0;
       text-align: center;
-      background-color: #fff;
+      background-color: rgba(255, 255, 255, 0.171);
     }
   }
 
@@ -416,7 +416,7 @@ $font-family-sans-serif-custom: 'Lato', sans-serif !default;
 
 .dropdown-menu-custom {
   overflow-y: hidden;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.171);
   border: 0 none;
 
   .media {
@@ -1635,7 +1635,7 @@ figure { position: relative; }
 // --------------------------------------------------
 
 .card-social {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.199);
   border: 0 none;
   border-radius: 0;
   border-radius: .25rem;
