@@ -7,6 +7,19 @@
   font-weight: bold;
   font-style: normal; }
 
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+.title {
+  
+  padding: 0%;
+}
 .header-gradient, .header {
   background: #4a90e2;
   /* For browsers that do not support gradients */
@@ -21,7 +34,7 @@
 
 .header {
   padding: 40px 0;
-  margin-bottom: 40px; }
+  margin-bottom: 20px; }
   .header .logo {
     margin: 40px 0; }
   .header .title {
