@@ -21,7 +21,7 @@ header {
 }
 
 header .brand {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 1.5em;
     font-weight: 700;
     text-transform: uppercase;
@@ -32,7 +32,7 @@ header .navigation {
 }
 header .navigation .navigation-items a{
     position: relative;
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 1em;
     font-weight: 500;
     text-decoration: none;
@@ -43,7 +43,7 @@ header .navigation .navigation-items a{
 header .navigation .navigation-items a:before{
 content: '';
 position: absolute;
-background: #000;
+background: rgb(255, 255, 255);
 width: 0;
 height: 3px;
 bottom: 0;
@@ -65,12 +65,12 @@ width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: #48af89;
+    background: #2e2e2e;
 }
 
 .home .content {
     z-index: 888;
-    color: black;
+    color: rgb(255, 255, 255);
     width: 70%;
     margin-top: 50px;
 }
@@ -82,4 +82,8 @@ width: 100%;
     letter-spacing: 5px;
     line-height: 75px;
     margin-bottom: 40px;
+}
+.home .content .icons{
+    text-decoration: none;
+    color: white;
 }
