@@ -83,7 +83,23 @@ width: 100%;
     line-height: 75px;
     margin-bottom: 40px;
 }
-.home .content .icons{
+#ic1{
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+#ic2{
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+#ic3{
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+.home .content a{
+    padding-top: 1rem;
     text-decoration: none;
     color: white;
 }
