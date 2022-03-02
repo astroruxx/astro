@@ -65,7 +65,7 @@ width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: #2e2e2e;
+    background: #000000;
 }
 
 .home .content {
@@ -99,6 +99,12 @@ width: 100%;
     color: white;
 }
 .home .content a{
+    padding-top: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.home .content p{
     padding-top: 1rem;
     text-decoration: none;
     color: white;
