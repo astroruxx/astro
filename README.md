@@ -1,3 +1,3 @@
 # astroruxx.github.io
 
-this is my personal portfolio/website
+You can get the link to invite my bot here and also check me out 
